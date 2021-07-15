@@ -1,0 +1,30 @@
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+card{
+  background-color: azure;
+}
+
+body {
+  background:#ffffff;
+  height: 100vh;
+}
+
+.center {
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  width: 100%;
+}
+
+.centerform {
+  margin-left: 600px;
+}
+
+@media screen and (max-width: 420px) {
+  .centerform {
+      margin-left: 100px;
+  }
+}
